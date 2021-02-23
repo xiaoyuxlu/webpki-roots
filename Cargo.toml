@@ -10,4 +10,4 @@ homepage = "https://github.com/ctz/webpki-roots"
 repository = "https://github.com/ctz/webpki-roots"
 
 [dependencies]
-webpki = "0.21.0"
+webpki =  {git = "https://github.com/jyao1/webpki.git", branch="uefi_support", default-features = false}
